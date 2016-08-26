@@ -17,6 +17,9 @@ namespace Log4Net
             myClass.foo(77);
 
             log.Info("Applikation wird verlassen.");
+            log.Warn("Warnung überlastung");
+            log.Fatal("Fatal");
+            log.Error("Error");
 
             Console.ReadLine();
         }
