@@ -21,7 +21,9 @@ namespace Log4Net
             log.Fatal("Fatal");
             log.Error("Error");
 
+            log.Error("dfasjdgf");
+
             Console.ReadLine();
-        }
+        }        
     }
 }

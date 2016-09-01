@@ -11,6 +11,8 @@ namespace Log4Net
             log.Debug("Parameter value: " + value);
             log.Info("Helloooo Fooo......");
             log.Debug("Funktion foo() wird verlassen.");
+
+            log.Error("Error 233");
         }
     }
 }
