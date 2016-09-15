@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<LeeresBeispiel.Models.Album>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Albums";
 }
 
-<h2>Index</h2>
+<h2>Albums</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -12,16 +12,16 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Artist.Name)
+            Artist
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Genre.Name)
+            Genre
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Titel)
+            Album Titel
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Price)
+            Preis
         </th>
         <th></th>
     </tr>
